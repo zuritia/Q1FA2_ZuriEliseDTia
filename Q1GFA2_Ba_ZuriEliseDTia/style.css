@@ -1,0 +1,53 @@
+#links{
+    display: inline;
+}
+#links a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+#links a:hover {
+    opacity: 1; 
+    transition: 0.4s;
+}
+.banner{
+    background-image: url(banner.jpg);
+    height: 150px;
+    position: relative;
+}
+.boxleft{
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    text-align: left;
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block
+}
+.boxleft a{
+    display: block;
+}
+.text{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    text-align: justify;
+}
+.boxright{
+    margin: 5px;
+    padding: 15px;
+    border: none;
+    text-align: right;
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+    float: right;
+}
+.boxright a{
+    display: block;
+}
+.pic{ 
+    text-align: center;
+    display: inline-block   ;
+
+}
